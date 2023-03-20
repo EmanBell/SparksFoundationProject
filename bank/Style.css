@@ -1,0 +1,127 @@
+
+  .header {
+    padding: 60px;
+    text-align: center;
+    background: #fcd994;
+    color:white;
+    
+    font-size: 30px;
+  }
+.picture{
+    width: 25%;
+    height: 25%;
+}
+/* Style the tab buttons */
+.tablink {
+    background-color:#FBA90A;
+    color: #342609;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 20px;
+    width: 25%;
+    font-weight: bold;
+  }
+  
+  /* Change background color of buttons on hover */
+  .tablink:hover {
+    background-color: #cfe9a6;
+  }
+  footer{
+    background-color:#342609;
+    color: white;
+  }
+  /* Set default styles for tab content */
+  .tabcontent {
+    color: white;
+    display: none;
+    padding: 150px;
+    margin: auto;
+    text-align: center;
+   }
+  
+  /* Style each tab content individually */
+#AboutUs {background-color: #FEF3DC;}
+#Customers {background-color: #FEF3DC;}
+#Transactions {background-color: #FEF3DC;}
+#history {background-color: #FEF3DC;}
+
+.amount{
+  width:300px;
+   height: 40px;
+   font-family:arial;
+  font-size:13px;
+}
+
+select {
+  font: inherit;
+  outline: 0;
+  background: rgb(255, 255, 255);
+  background-image: none;
+  color: rgb(41, 14, 66);
+  cursor: pointer;
+  border: 1px solid rgb(250, 250, 250);
+  border-radius: 3px;
+  font-family:arial;
+  font-size:15px;
+  align-content: center;
+  width:300px;
+   height:40px;
+}
+label{
+  font-size: 20px;
+  font-weight: bold;
+ 
+
+}
+p{
+  font-size: 20px;
+  
+  
+}
+
+
+.browser1 {
+  background: rgb(240, 222, 166);
+  height: auto;
+  width: 900px;
+  border-radius: 25px;
+  padding: 20px;
+  color: black;
+  font-family: "Garamondn",  serif;
+}
+
+
+table{
+  font-size: 20px;
+  border-collapse: collapse;
+  width: 850px;
+  height: auto;
+
+}
+td, th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+
+tr:nth-child(even){background-color: #FDC168;
+color:black;}
+tr{
+  background-color: #FED777;
+  color:#342809;
+}
+
+
+tr:hover {background-color: #c9e996;}
+
+th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #FCBA12;
+  color: rgb(66, 53, 53);
+}
+
